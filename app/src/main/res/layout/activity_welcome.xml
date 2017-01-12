@@ -11,7 +11,22 @@
     tools:context="com.aarongreen.mysoccerlive.WelcomeActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, World!"
+        android:id="@+id/welcomeTextField"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_centerHorizontal="false"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/scoresActivityButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
